@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "625618037485",
+    "project_id": "planet-46085",
+    "storage_bucket": "planet-46085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625618037485:android:c1724e3310b071ecd0fae4",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp-ETJCDhNdBLsGvf9YvQMNGrsYcfUZEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

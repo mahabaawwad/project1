@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPlanetFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="111dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="152dp"
+            android:text="Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etOrbitAddFrangment" />
+
+        <EditText
+            android:id="@+id/etNameAddFragment"
+            android:layout_width="239dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="233dp"
+            android:layout_marginBottom="45dp"
+            android:ems="10"
+            android:hint="name..."
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@+id/etSizeAddFrangment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etSizeAddFrangment"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="38dp"
+            android:ems="10"
+            android:hint="size..."
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@+id/etOrbitAddFrangment"
+            app:layout_constraintEnd_toEndOf="@+id/etOrbitAddFrangment"
+            app:layout_constraintStart_toStartOf="@+id/etNameAddFragment"
+            app:layout_constraintTop_toBottomOf="@+id/etNameAddFragment" />
+
+        <EditText
+            android:id="@+id/etOrbitAddFrangment"
+            android:layout_width="241dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="58dp"
+            android:ems="10"
+            android:hint="orbit..."
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@+id/btnAdd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etSizeAddFrangment" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
