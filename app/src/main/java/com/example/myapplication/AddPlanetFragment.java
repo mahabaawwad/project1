@@ -79,6 +79,7 @@ public class AddPlanetFragment extends Fragment {
         connectComponents();
     }
     private void connectComponents() {
+        // ttt
         fbs = FirebaseServices.getInstance();
         etName=getView().findViewById(R.id.etNameAddFragment);
         etSize=getView().findViewById(R.id.etSizeAddFrangment);
